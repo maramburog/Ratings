@@ -66,7 +66,7 @@
         <!--PLAYERS-->
         <scene sceneID="qPw-2l-qrX">
             <objects>
-                <tableViewController id="gGZ-gZ-jWj" sceneMemberID="viewController">
+                <tableViewController id="gGZ-gZ-jWj" customClass="PlayersTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9KB-4y-Pez">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,8 +135,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="iyO-kT-x22" kind="relationship" relationship="viewControllers" id="XyJ-Va-0ap"/>
                         <segue destination="3FT-W7-cJo" kind="relationship" relationship="viewControllers" id="HmX-XB-B40"/>
+                        <segue destination="iyO-kT-x22" kind="relationship" relationship="viewControllers" id="XyJ-Va-0ap"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J20-qU-mFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
