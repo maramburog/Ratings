@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="20.625" y="35.573333333333331"/>
         </scene>
-        <!--Item 2-->
+        <!--Gestures-->
         <scene sceneID="qko-A8-pwJ">
             <objects>
                 <viewController id="iyO-kT-x22" sceneMemberID="viewController">
@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="HXR-od-xEq"/>
+                    <tabBarItem key="tabBarItem" title="Gestures" image="Gestures" id="HXR-od-xEq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AvK-PJ-sAS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +112,7 @@
         <scene sceneID="X80-mv-RuC">
             <objects>
                 <navigationController id="3FT-W7-cJo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="PLAYERS" id="owI-LS-9R8"/>
+                    <tabBarItem key="tabBarItem" title="PLAYERS" image="Players" id="owI-LS-9R8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yLW-d8-GzW">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -144,4 +144,8 @@
             <point key="canvasLocation" x="525" y="34"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures" width="30" height="30"/>
+        <image name="Players" width="30" height="30"/>
+    </resources>
 </document>
