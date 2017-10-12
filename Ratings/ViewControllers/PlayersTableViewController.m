@@ -42,6 +42,19 @@
     return cell;
 }
 
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"AddPlayer"]) {
+        
+        UINavigationController *navigationController = segue.destinationViewController;
+        PlayerDetailsViewController *playerDetailsViewController = [navigationController viewControllers][0];
+        playerDetailsViewController.delegate = self;
+    }
+}
+
+
+
 #pragma mark - TABLE CUSTOMIZATION
 
 - (UIImage *)imageForRating:(int)rating
@@ -59,10 +72,10 @@
 # pragma mark - PlayerDetailsViewControllers
 
 -(void) playerDetailsViewControllerDidCancel:(PlayerDetailsViewController *)controller{
-    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 -(void) playerDetailsViewControllerDidSave:(PlayerDetailsViewController *)controller{
-    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

@@ -8,7 +8,14 @@
 
 #import "PlayerDetailsViewController.h"
 
+@interface PlayerDetailsViewController()
+
+@property (weak, nonatomic) IBOutlet UITextField *playerNameTextField;
+
+@end
+
 @implementation PlayerDetailsViewController
+
 
 -(void)viewDidLoad {
     [super viewDidLoad];
