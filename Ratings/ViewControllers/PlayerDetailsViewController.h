@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GamePickerViewController.h"
+
 
 @class PlayerDetailsViewController;
 
@@ -18,7 +20,7 @@
 - (void)playerDetailsViewController:(PlayerDetailsViewController *)controller didAddPlayer:(Player *)player;
 @end
 
-@interface PlayerDetailsViewController : UITableViewController
+@interface PlayerDetailsViewController : UITableViewController <GamePickerViewControllerDelegate>
 
 @property (nonatomic, weak) id <PlayerDetailsViewControllerDelegate> delegate;
 

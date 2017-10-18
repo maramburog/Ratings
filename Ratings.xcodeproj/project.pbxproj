@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9AB2EA11F95A2B100984C0B /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB2EA01F95A2B100984C0B /* GamePickerViewController.m */; };
 		C9D4D9581F8476CA00D07F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D9571F8476CA00D07F7C /* AppDelegate.m */; };
 		C9D4D95B1F8476CA00D07F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D95A1F8476CA00D07F7C /* ViewController.m */; };
 		C9D4D95E1F8476CA00D07F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D4D95C1F8476CA00D07F7C /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9AB2E9F1F95A2B100984C0B /* GamePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		C9AB2EA01F95A2B100984C0B /* GamePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 		C9D4D9531F8476CA00D07F7C /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D4D9561F8476CA00D07F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9D4D9571F8476CA00D07F7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				C9E7C4721F8C627500569CE5 /* PlayersTableViewController.m */,
 				C9ED398D1F8F00A800A1E10A /* PlayerDetailsViewController.h */,
 				C9ED398E1F8F00A800A1E10A /* PlayerDetailsViewController.m */,
+				C9AB2E9F1F95A2B100984C0B /* GamePickerViewController.h */,
+				C9AB2EA01F95A2B100984C0B /* GamePickerViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				C9D4D9661F8476CA00D07F7C /* main.m in Sources */,
 				C9E7C4831F8EF16200569CE5 /* PlayerTableViewCell.m in Sources */,
 				C9E7C4731F8C627500569CE5 /* PlayersTableViewController.m in Sources */,
+				C9AB2EA11F95A2B100984C0B /* GamePickerViewController.m in Sources */,
 				C9D4D9581F8476CA00D07F7C /* AppDelegate.m in Sources */,
 				C9E7C4801F8C6B0F00569CE5 /* Player.m in Sources */,
 				C9ED398F1F8F00A800A1E10A /* PlayerDetailsViewController.m in Sources */,
